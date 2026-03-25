@@ -1,3 +1,5 @@
+
+
 const audio = document.getElementById("myAudio");
 const btn = document.getElementById("playPauseBtn");
 let isPlaying = false;
@@ -43,3 +45,4 @@ function activarAudioUnaVez() {
 document.addEventListener("scroll", activarAudioUnaVez);
 document.addEventListener("click", activarAudioUnaVez);
 document.addEventListener("touchstart", activarAudioUnaVez);
+
